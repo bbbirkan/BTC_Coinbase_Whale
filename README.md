@@ -11,7 +11,10 @@ In terminal:
 
 
 Then follow the setup section run this in terminal
+
 gcloud init 
 
 gcloud builds submit --tag gcr.io/ProjectID/dashtest  --project=ProjectID
+
+
 gcloud run deploy --image gcr.io/ProjectID/dashtest --platform managed  --project=ProjectID 
