@@ -20,3 +20,6 @@ gcloud builds submit --tag gcr.io/ProjectID/dashtest  --project=ProjectID
 gcloud run deploy --image gcr.io/ProjectID/dashtest --platform managed  --project=ProjectID 
 
 <img src="https://github.com/bbbirkan/BTC_Coinbase_Whale/blob/main/BTC-USD.png" alt="BTC_USD">
+
+
+🔴Market may be oversold:Extra ₿194 will be sold.🔴
