@@ -7,7 +7,7 @@ Create project in https://cloud.google.com/
 Download from sdk https://cloud.google.com/sdk/docs/install-sdk 
 
 In terminal:
-/Users/YOURFOLDERNAME/PycharmProjects/google-cloud-sdk/install.sh
+/Users/YOUR_FOLDER_LOCATION/google-cloud-sdk/install.sh
 
 
 Then follow the setup section run this in terminal
