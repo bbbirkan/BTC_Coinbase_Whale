@@ -722,14 +722,14 @@ def prepare_data(ticker, exchange):
     #
     #                   ****Information about market****
     # **buy**#
-    buy_number = float(ob_bid["text"][58][0:5])
+    buy_number = float(ob_bid["text"][58][0:4])
     total_buy_order = str(ob_bid["text"][58])
     total_buy_order = "" + total_buy_order[16:20] + " buy orders valued at ₿" + total_buy_order[0:6] + ", " + \
                       total_buy_order[-1] + total_buy_order[-9:-1] + "--" + total_buy_order[-1] + str(
         current_price) + "\n"
     # **sell**#
     sell_number = (ob_ask['text'][58])
-    sell_number = float(sell_number[0:5])
+    sell_number = float(sell_number[0:4])
     total_sell_order = str(ob_ask['text'][58])
     total_sell_order = "" + total_sell_order[16:20] + " sell orders valued at ₿" + total_sell_order[0:6] + ", " + \
                        total_sell_order[-1] + str(current_price) + "--" + total_sell_order[-1] + total_sell_order[
